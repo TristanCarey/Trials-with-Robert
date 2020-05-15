@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id="title">
+      "Hello World, we are software developers!"
+    </h1>
+    
+    <p id="description">
+      This is a little survey site that I had to make as part of the trials.
+    </p>
+    <form id="survey-form" action="">
+        <label id="name-label"> Enter name: </label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+      
+        <label id="email-label"> Enter email: </label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+      
+        <label id="number-label"> Enter number: </label>
+        <input id="number" type="number" placeholder="Enter your number" required min="0" max="9999999999999">
+
+        <select name="dropdown" id="dropdown">
+          <option value="Option 1">option 1</option>
+          <option value="Option 2">option 2</option>
+          <option value="Option 3">option 3</option>
+        </select>
+
+        <input type="radio" id="radio" name="1" value="1"> 1
+        <input type="radio" id="radio" name="1" value="2"> 2
+        <input type="radio" id="radio" name="1" value="3"> 3
+
+        <input type="checkbox" id="checkboxes" value="1"> 1
+        <input type="checkbox" id="checkboxes" value="2"> 2
+        <input type="checkbox" id="checkboxes" value="3"> 3
+
+        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+
+        <button id="submit" value="submit"> Submit </button>
+    </form>
+    
+      
+    <script  src="js/index.js"></script>
+  </body>
+</html>
